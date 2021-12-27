@@ -1,7 +1,17 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
 body {
-	border: 5px solid black;
 	font-family: sans-serif;
 	/* line-height: 1.2; */
+}
+.container {
+	border: 5px solid black;
+	width: 800px;
+	margin: 100px auto;
+	/* margin-top: 100px; */
 }
 header {
 	background-color: seashell;
@@ -9,6 +19,12 @@ header {
 h2 {
 	text-transform: uppercase;
 	text-align: center;
+	padding: 20px;
+}
+h4 {
+	padding-top: 30px;
+	/* padding-bottom: 10px; */
+	text-transform: uppercase;
 }
 
 button {
@@ -17,11 +33,21 @@ button {
 	width: 120px;
 	text-transform: uppercase;
 	border: none;
+	width: 100%;
+	height: 45px;
+	font-size: 16px;
+}
+p {
+	line-height: 1.2;
+}
+.para {
+	margin-bottom: 10px;
 }
 button:hover {
 	background-color: white;
 	color: black;
-	border: none;
+	border-top: 4px solid black;
+	/* border-bottom: 4px solid black; */
 	cursor: pointer;
 }
 .article {
@@ -30,12 +56,19 @@ button:hover {
 	color: #777;
 	font-family: sans-serif;
 	font-weight: bold;
+	margin-bottom: 20px;
 }
-strong {
+.price {
 	font-size: 25px;
+	margin-bottom: 5px;
+	margin-top: 5px;
 }
-ul {
+li {
 	list-style-type: square;
+	margin: 25px;
+}
+.more-info {
+	margin-bottom: 10px;
 }
 .more-info:link,
 .more-info:visited {
