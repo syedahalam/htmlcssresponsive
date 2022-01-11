@@ -32,18 +32,18 @@ p {
 	line-height: 1.2;
 }
 img {
-	float: left;
+	/* float: left; */
 	/* width: 240px; */
 }
 .main {
 	width: 240px;
 	/* display: inline-block; */
-	float: left;
-	margin-left: 40px;
+	/* float: left; */
+	/* margin-left: 40px; */
 	margin-top: 20px;
 }
 .aside {
-	float: right;
+	/* float: right; */
 	width: 240px;
 	/* margin-left: 40px; */
 }
@@ -69,49 +69,47 @@ button:hover {
 	cursor: pointer;
 }
 .colors {
-	/* display: inline; */
+	display: flex;
+	margin-top: 20px;
 }
 .black {
 	width: 20px;
 	height: 20px;
 	background-color: black;
-	display: inline-block;
-	margin-top: 20px;
 	margin-right: 10px;
 }
 .blue {
 	width: 20px;
 	height: 20px;
 	background-color: blue;
-	display: inline-block;
 	margin-right: 10px;
 }
 .red {
 	width: 20px;
 	height: 20px;
 	background-color: red;
-	display: inline-block;
+	/* display: inline-block; */
 	margin-right: 10px;
 }
 .yellow {
 	width: 20px;
 	height: 20px;
 	background-color: yellow;
-	display: inline-block;
+	/* display: inline-block; */
 	margin-right: 10px;
 }
 .green {
 	width: 20px;
 	height: 20px;
 	background-color: green;
-	display: inline-block;
+	/* display: inline-block; */
 	margin-right: 10px;
 }
 .brown {
 	width: 20px;
 	height: 20px;
 	background-color: brown;
-	display: inline-block;
+	/* display: inline-block; */
 	margin-right: 10px;
 }
 .sale {
@@ -133,13 +131,13 @@ button:hover {
 	font-family: sans-serif;
 	font-weight: bold;
 	margin-top: 10px;
-	float: right;
+	/* float: right; */
 }
 .price {
 	font-size: 25px;
 	margin-bottom: 5px;
 	margin-top: 5px;
-	float: left;
+	/* float: left; */
 }
 li {
 	list-style-type: square;
@@ -155,4 +153,14 @@ li {
 .more-info:hover,
 .more-info:active {
 	text-decoration: none;
+}
+.row-1 {
+	display: flex;
+	justify-content: space-between;
+}
+.contain {
+	display: flex;
+	justify-content: space-between;
+}
+.main {
 }
