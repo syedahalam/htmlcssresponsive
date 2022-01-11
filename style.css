@@ -2,6 +2,7 @@
 	font-family: sans-serif;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 body {
 	color: #444;
@@ -13,7 +14,7 @@ nav {
 	text-align: center;
 }
 .container {
-	width: 800px;
+	width: 1200px;
 	margin: 0 auto;
 }
 .main-header {
@@ -30,8 +31,7 @@ aside {
 	background-color: #f7f7f7;
 	border-top: 5px solid #5dccee;
 	border-bottom: 5px solid #5dccee;
-	padding: 50px 0;
-	width: 500px;
+	padding: 50px 40px;
 }
 article {
 	margin-bottom: 60px;
@@ -64,6 +64,7 @@ h4 {
 	font-size: 20px;
 	text-transform: uppercase;
 	text-align: center;
+	margin-bottom: 30px;
 }
 
 p {
@@ -105,6 +106,7 @@ button {
 }
 .related {
 	list-style: none;
+	margin-left: 0;
 }
 
 /* .li {
@@ -182,4 +184,34 @@ h2::after {
 	position: absolute;
 	top: -10px;
 	right: -25px;
+}
+.author-img {
+	float: left;
+	margin-bottom: 20px;
+}
+.author {
+	/* padding-left: 80px; */
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+h1 {
+	float: left;
+}
+nav {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+article {
+	width: 825px;
+	float: left;
+}
+aside {
+	width: 300px;
+	float: right;
+}
+footer {
+	clear: both;
 }

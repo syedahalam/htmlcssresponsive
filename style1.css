@@ -1,6 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 
 body {
@@ -30,8 +31,25 @@ h4 {
 p {
 	line-height: 1.2;
 }
+img {
+	float: left;
+	/* width: 240px; */
+}
+.main {
+	width: 240px;
+	/* display: inline-block; */
+	float: left;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.aside {
+	float: right;
+	width: 240px;
+	/* margin-left: 40px; */
+}
 .para {
 	margin-bottom: 10px;
+	clear: both;
 }
 button {
 	background-color: black;
@@ -100,12 +118,13 @@ button:hover {
 	position: absolute;
 	background-color: rgb(219, 14, 14);
 	left: -40px;
-	top: -17px;
+	top: -15px;
 	padding: 5px 15px;
 	color: white;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	font-size: 12px;
+	font-weight: bold;
 }
 .article {
 	font-size: 10px;
@@ -113,16 +132,18 @@ button:hover {
 	color: #777;
 	font-family: sans-serif;
 	font-weight: bold;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	float: right;
 }
 .price {
 	font-size: 25px;
 	margin-bottom: 5px;
 	margin-top: 5px;
+	float: left;
 }
 li {
 	list-style-type: square;
-	margin: 25px;
+	margin: 5px;
 }
 .more-info {
 	margin-bottom: 10px;
