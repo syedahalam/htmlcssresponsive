@@ -11,6 +11,7 @@ body {
 	border: 5px solid black;
 	width: 800px;
 	margin: 100px auto;
+	position: relative;
 	/* margin-top: 100px; */
 }
 header {
@@ -48,6 +49,63 @@ button:hover {
 	color: black;
 	border-top: 5px solid black;
 	cursor: pointer;
+}
+.colors {
+	/* display: inline; */
+}
+.black {
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.blue {
+	width: 20px;
+	height: 20px;
+	background-color: blue;
+	display: inline-block;
+	margin-right: 10px;
+}
+.red {
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	display: inline-block;
+	margin-right: 10px;
+}
+.yellow {
+	width: 20px;
+	height: 20px;
+	background-color: yellow;
+	display: inline-block;
+	margin-right: 10px;
+}
+.green {
+	width: 20px;
+	height: 20px;
+	background-color: green;
+	display: inline-block;
+	margin-right: 10px;
+}
+.brown {
+	width: 20px;
+	height: 20px;
+	background-color: brown;
+	display: inline-block;
+	margin-right: 10px;
+}
+.sale {
+	position: absolute;
+	background-color: rgb(219, 14, 14);
+	left: -40px;
+	top: -17px;
+	padding: 5px 15px;
+	color: white;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 12px;
 }
 .article {
 	font-size: 10px;

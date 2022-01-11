@@ -8,6 +8,10 @@ body {
 	border-top: 10px solid #5dccee;
 	position: relative;
 }
+nav {
+	font-size: 10px;
+	text-align: center;
+}
 .container {
 	width: 800px;
 	margin: 0 auto;
