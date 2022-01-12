@@ -159,8 +159,6 @@ li {
 	justify-content: space-between;
 }
 .contain {
-	display: flex;
-	justify-content: space-between;
-}
-.main {
+	display: grid;
+	grid-template-columns: 250px 1fr 1fr;
 }
